@@ -15,12 +15,12 @@ public class MyfirstdockerappApplication {
 
 	@GetMapping("/msg")
 	public String getMsg() {
-		return "welcome kapil G and very nice app :)";
+		return "welcome to my first app :)";
 	}
 
 	@GetMapping("/msg2")
 	public String getMsg2() {
-		return "this is msg 2 for docker and hello...";
+		return "this is msg for docker and hello...";
 	}
 	
 	
